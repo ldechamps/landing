@@ -127,33 +127,9 @@ function PlasmicNavbar__RenderFunc(props: {
           <Button
             className={classNames("__wab_instance", sty.button__votkR)}
             color={"navLink"}
+            link={`/services`}
             onClick={async event => {
               const $steps = {};
-
-              $steps["goToServices"] = true
-                ? (() => {
-                    const actionArgs = { destination: `/services` };
-                    return (({ destination }) => {
-                      if (
-                        typeof destination === "string" &&
-                        destination.startsWith("#")
-                      ) {
-                        document
-                          .getElementById(destination.substr(1))
-                          .scrollIntoView({ behavior: "smooth" });
-                      } else {
-                        location.assign(destination);
-                      }
-                    })?.apply(null, [actionArgs]);
-                  })()
-                : undefined;
-              if (
-                $steps["goToServices"] != null &&
-                typeof $steps["goToServices"] === "object" &&
-                typeof $steps["goToServices"].then === "function"
-              ) {
-                $steps["goToServices"] = await $steps["goToServices"];
-              }
             }}
             submitsForm={false}
           >
