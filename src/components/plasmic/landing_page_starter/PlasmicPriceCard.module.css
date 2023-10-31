@@ -1,0 +1,202 @@
+.root {
+  box-shadow: 0px 10px 10px 0px #00000026;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  max-width: 400px;
+  background: var(--token-QEN3fVTvvZ_L);
+  position: relative;
+  border-radius: 16px;
+}
+.rootprimary {
+  border: 4px solid var(--token-NkH_CD1hbL6Q);
+}
+.rootborders_flatLeft {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.rootborders_flatRight {
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+}
+.freeBox__rcQry {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  padding: 32px;
+}
+.freeBox__rcQry > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.freeBox__rcQry > :global(.__wab_flex-container) > *,
+.freeBox__rcQry > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__rcQry > :global(.__wab_flex-container) > picture > img,
+.freeBox__rcQry
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 16px;
+}
+.freeBox__pe01O {
+  display: flex;
+  flex-direction: row;
+}
+.freeBox__bWvP6 {
+  display: flex;
+  position: relative;
+}
+.slotTargetLabel {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+}
+.freeBox__ps7CC {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+.freeBox__ps7CC > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.freeBox__ps7CC > :global(.__wab_flex-container) > *,
+.freeBox__ps7CC > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__ps7CC > :global(.__wab_flex-container) > picture > img,
+.freeBox__ps7CC
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.freeBox__rlp8F {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.text__aGfw {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  color: var(--token-tyDAZ_mRcnlC);
+  width: auto;
+}
+.freeBox__k2Zub {
+  display: flex;
+  position: relative;
+  width: auto;
+}
+.slotTargetDollars {
+  font-size: 48px;
+  font-weight: 800;
+  color: var(--token-tyDAZ_mRcnlC);
+  line-height: 1;
+}
+.text__x0P89 {
+  line-height: 28px;
+  color: var(--token-emIQOznJrGFv);
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 20px;
+  height: auto;
+}
+.divider:global(.__wab_instance) {
+  position: relative;
+  flex-shrink: 0;
+}
+.freeBox__nEeCp {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  background: var(--token--U5gao3zdC48);
+  height: 100%;
+  min-height: 0;
+  padding: 32px;
+}
+.freeBox__nEeCp > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  min-height: 0;
+  margin-top: calc(0px - 32px);
+  height: calc(100% + 32px);
+}
+.freeBox__nEeCp > :global(.__wab_flex-container) > *,
+.freeBox__nEeCp > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__nEeCp > :global(.__wab_flex-container) > picture > img,
+.freeBox__nEeCp
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 32px;
+}
+.freeBox__xUjt9 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.freeBox__xUjt9 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.freeBox__xUjt9 > :global(.__wab_flex-container) > *,
+.freeBox__xUjt9 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__xUjt9 > :global(.__wab_flex-container) > picture > img,
+.freeBox__xUjt9
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 16px;
+}
+.valueProp__chjY:global(.__wab_instance) {
+  width: 100%;
+  min-width: 0;
+}
+.svg__z9U3P {
+  object-fit: cover;
+  color: #34c759;
+  width: 24px;
+  height: 24px;
+}
+.valueProp__wQpJf:global(.__wab_instance) {
+  width: 100%;
+  min-width: 0;
+}
+.svg__lhE6M {
+  object-fit: cover;
+  color: #34c759;
+  width: 24px;
+  height: 24px;
+}
+.svg___2Zljp {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.text__mEMzj {
+  height: auto;
+}
+.svg___1OenV {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+}
